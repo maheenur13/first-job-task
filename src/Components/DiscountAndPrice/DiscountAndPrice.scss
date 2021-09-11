@@ -1,0 +1,23 @@
+.priceInput::-webkit-outer-spin-button,
+.priceInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.priceInput[type=number] {
+  -moz-appearance: textfield;
+}
+.priceInput{
+    padding: 4px!important;
+    font-size: 14px;
+}
+.customBtn{
+    margin-left: auto;
+    outline: none;
+    background-color:rgb(1, 199, 101);
+    border-radius:0px 30px 30px 30px;
+    border: none;
+    padding: 7px 10px;
+    color:white;
+}
