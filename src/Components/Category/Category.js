@@ -6,7 +6,7 @@ const Category = () => {
     <>
       <Accordion style={{ border: 'none', backgroundColor: 'white', boxShadow: 'none' }}>
         <Accordion.Item style={{ border: 'none', backgroundColor: 'white', boxShadow: 'none' }}>
-          <Accordion.Header>Category</Accordion.Header>
+          <Accordion.Header className="font-weight-bold py-2">Category</Accordion.Header>
           <Accordion.Body>
 
             <p>Mens Clothing</p>

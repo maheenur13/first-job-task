@@ -13,7 +13,7 @@ const Filters = () => {
     return (
         <div className="px-3 py-3">
             <div>
-                <h5 className="m-2 pb-2">Filters</h5>
+                <p style={{fontSize:'16px',fontWeight:'500'}} className="m-2 pb-2">Filters</p>
                 <Chip
                     style={{
                         border: '1px solid #9C9B99',

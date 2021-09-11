@@ -1,7 +1,7 @@
 import React, { Component, useState } from 'react';
 import { Icon } from 'react-icons-kit'
 import {iosArrowLeft} from 'react-icons-kit/ionicons/iosArrowLeft';
-import {iosArrowRight} from 'react-icons-kit/ionicons/iosArrowRight'
+import {iosArrowRight} from 'react-icons-kit/ionicons/iosArrowRight';
 import Carousel,{consts} from 'react-elastic-carousel';
 import Image1 from '../../Images/hairoil.png';
 import Image2 from '../../Images/mask.png';

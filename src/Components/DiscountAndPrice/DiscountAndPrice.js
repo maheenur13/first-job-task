@@ -1,7 +1,9 @@
 import React from 'react';
+import { Icon } from 'react-icons-kit'
 import { Accordion } from 'react-bootstrap';
 import CheckBox from '../CheckBox/CheckBox';
 import DividerDashed from '../DividerDashed/DividerDashed';
+import {iosArrowRight} from 'react-icons-kit/ionicons/iosArrowRight';
 import './DiscountAndPrice.scss';
 const discount = [
     { label: '10% - 30%' },
@@ -45,7 +47,7 @@ const DiscountAndPrice = () => {
                                 <label style={{marginRight:'5px'}}>Max</label>
                                     <input className="w-100 border-0 priceInput" type="number" />
                                 </div>
-                                <button className="customBtn">Go</button>
+                                <button className="customBtn"><Icon size={21}  icon={iosArrowRight}/></button>
                             </div>
                     </Accordion.Body>
                 </Accordion.Item>

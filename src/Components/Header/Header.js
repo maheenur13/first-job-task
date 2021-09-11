@@ -15,10 +15,10 @@ const Header = () => {
                     alert(`selected ${selectedKey}`)}}
             >
                 <Nav.Item>
-                    <Nav.Link style={{color:'rgb(180,180,180)',fontWeight:'bold'}}  href="/home">Homepage</Nav.Link>
+                    <Nav.Link style={{color:'rgb(180,180,180)',fontWeight:'500'}}  href="/home">Homepage</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link style={{color:'black',fontWeight:'bold'}} href="/allProducts" eventKey="link-1">All Products</Nav.Link>
+                    <Nav.Link style={{color:'black',fontWeight:'500'}} href="/allProducts" eventKey="link-1">All Products</Nav.Link>
                 </Nav.Item>
             </Nav>
             <hr />

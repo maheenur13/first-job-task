@@ -11,10 +11,10 @@ const Products = () => {
                 {productsCollection.map((product, idx) => (
                     <Col   id={idx}>
                         <Card className="shadow-sm g-4 rounded-4 py-3" style={{border: 'none',overflow: 'hidden'}} >
-                            <Card.Img className="m-auto" variant="top" style={{maxWidth:'220px',maxHeight:'245px'}} src={product.image} />
+                            <Card.Img className="m-auto" variant="top" style={{maxWidth:'220px'}} src={product.image} />
                             <Card.Body>
-                                <Card.Title style={{fontSize: '18px'}}>{product.name}</Card.Title>
-                                <Card.Text>{product.price}</Card.Text>
+                                <Card.Title style={{fontSize: '18px',fontWeight:'400'}}>{product.name}</Card.Title>
+                                <Card.Text style={{fontWeight:'500'}}>{product.price}</Card.Text>
                                 <div className="d-flex justify-content-between  ">
                                     <p className="my-auto text-muted" style={{ textDecoration: 'line-through' }}>{product.prevPrice}</p>
                                     <p className="text-muted my-auto">{product.discount}</p>
