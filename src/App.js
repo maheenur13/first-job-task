@@ -8,7 +8,7 @@ import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div className=" w-100">
-      <div style={{ padding: '30px 90px 30px 90px' }}>
+      <div className="container-lg container-md container-sm p-5-xs py-3">
         <Header></Header>
         <hr />
         <MainSection></MainSection>
@@ -16,7 +16,7 @@ function App() {
         <About />
       </div>
       <hr />
-      <div style={{ padding: '30px 90px 30px 90px' }}>
+      <div className="container-lg container-md container-sm p-5-xs py-3">
         <Footer/>
       </div>
     </div>

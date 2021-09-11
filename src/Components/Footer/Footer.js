@@ -21,7 +21,7 @@ import { Card } from 'react-bootstrap';
 import { FormControl, Grid, Input, InputAdornment, InputLabel, TextField } from '@material-ui/core';
 const Footer = () => {
     return (
-        <Row className="container-lg container-md mx-auto">
+        <Row className="container-lg border container-md mx-auto">
             {/* <div> */}
             <Col className=" mx-auto p-1" sm={12} md={10} lg={3}>
 
