@@ -9,7 +9,8 @@ const ProductNav = () => {
             <Navbar.Text style={{ marginRight: '43px' }}>Showing 1 - 40 of 80,068 products</Navbar.Text>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-                <Navbar.Text style={{ marginRight: '23px',color:'black', fontWeight: '500' }}>Refine By</Navbar.Text>
+                <Navbar.Text style={{ marginRight: '12px',color:'black', fontWeight: '500' }}>Refine By</Navbar.Text>
+                <div className="d-md-none d-lg-block" style={{height: '25px',borderRight:'2px solid gray'}}></div>
                 <Nav className="me-auto">
                     <NavDropdown style={{ marginRight: '43px' }} title="Price" id="collasible-nav-dropdown">
                         <NavDropdown.Item href="#">Action</NavDropdown.Item>
@@ -18,8 +19,9 @@ const ProductNav = () => {
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="#">Separated link</NavDropdown.Item>
                     </NavDropdown>
-                    <Navbar.Text style={{ marginRight: '23px',color:'black', fontWeight: '500' }}>Sort By</Navbar.Text>
-                    <NavDropdown style={{ marginRight: '43px' }} title="Best Sellers" id="collasible-nav-dropdown">
+                    <Navbar.Text style={{ marginRight: '15px',color:'black', fontWeight: '500' }}>Sort By</Navbar.Text>
+                    <div className="d-md-none d-lg-block" style={{height: '25px',borderRight:'2px solid gray',marginTop: '10px'}}></div>
+                    <NavDropdown  title="Best Sellers" id="collasible-nav-dropdown">
                         <NavDropdown.Item href="#">Action</NavDropdown.Item>
                         <NavDropdown.Item href="#">Another action</NavDropdown.Item>
                         <NavDropdown.Item href="#">Something</NavDropdown.Item>

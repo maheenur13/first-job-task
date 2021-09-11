@@ -21,15 +21,15 @@ import { Card } from 'react-bootstrap';
 import { FormControl, Grid, Input, InputAdornment, InputLabel, TextField } from '@material-ui/core';
 const Footer = () => {
     return (
-        <Row className="container mx-auto">
+        <Row className="container-lg container-md mx-auto">
             {/* <div> */}
-            <Col className=" mx-auto p-4" sm={7} md={5} lg={3}>
+            <Col className=" mx-auto p-1" sm={12} md={10} lg={3}>
 
                 <Card.Img style={{marginTop:'50px'}} src={image} alt="pic" />
             </Col>
-            <Col className="  mx-auto p-4" sm={10} md={8} lg={6}>
-                <div className="px-5 ">
-                <div className="px-5 my-5 d-flex justify-content-between flex-wrap align-items-center">
+            <Col className="mx-auto " sm={12} md={10} lg={6}>
+                <div className="">
+                <div className="px-3  my-5 d-flex justify-content-between flex-wrap align-items-center w-50 mx-auto">
                     <div >
                         <Card.Img style={{ maxWidth: '15px' }} src={fbIcon} />
                     </div>
@@ -47,7 +47,7 @@ const Footer = () => {
                     </div>
 
                 </div>
-                <div className=" px-4">
+                <div className="px-5">
                     <Card.Title>SUBSCRIBE</Card.Title>
                     <Card.Text>Get the latest news from zDrop</Card.Text>
 
@@ -91,7 +91,7 @@ const Footer = () => {
                         </Nav.Item>
                     </Nav>
                 </div>
-                <div className="d-flex justify-content-around align-items-center">
+                <div className="d-flex justify-content-around align-items-center w-75 mx-auto">
                     <div style={{height:'40px',overflow:'hidden'}} className="border">
                     <Card.Img className="p-2" style={{ maxWidth:'65px'}} src={bkashImg}/>
                     </div>
@@ -112,7 +112,7 @@ const Footer = () => {
                     </div>
                 </div>
             </Col>
-            <Col className=" p-4 mx-auto" sm={7} md={5} lg={3}>
+            <Col className=" p-4 mx-auto " sm={12} md={10} lg={3}>
                 <div className="mt-5">
                     <Card.Title className="my-4">CONTACT US</Card.Title>
                     <div>
