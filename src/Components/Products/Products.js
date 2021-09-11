@@ -9,7 +9,7 @@ const Products = () => {
         <div className="">
             <Row className=" g-4 m-auto" xs={1} sm={2} md={3} lg={4}   >
                 {productsCollection.map((product, idx) => (
-                    <Col   id={idx}>
+                    <Col id={idx}>
                         <Card className="shadow-sm g-4 rounded-4 py-3" style={{border: 'none',overflow: 'hidden'}} >
                             <Card.Img className="m-auto" variant="top" style={{maxWidth:'220px'}} src={product.image} />
                             <Card.Body>
