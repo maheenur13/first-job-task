@@ -29,21 +29,21 @@ const Footer = () => {
             </Col>
             <Col className="mx-auto " sm={12} md={10} lg={6}>
                 <div className="">
-                <div className="px-3  my-5 d-flex justify-content-between flex-wrap align-items-center w-50 mx-auto">
-                    <div >
-                        <Card.Img style={{ maxWidth: '15px' }} src={fbIcon} />
+                <div className="  px-3 my-5 d-flex justify-content-center  align-items-center w-auto mx-auto">
+                    <div  className="mx-3">
+                        <Card.Img style={{ width: '16px' }} src={fbIcon} />
                     </div>
-                    <div >
-                        <Card.Img style={{ maxWidth: '30px' }} src={tweetIcon} />
+                    <div className="mx-3">
+                        <Card.Img style={{ width: '25px' }} src={tweetIcon} />
                     </div>
-                    <div >
-                        <Card.Img style={{ maxWidth: '30px' }} src={linkedIcon} />
+                    <div className="mx-3">
+                        <Card.Img style={{ width: '25px' }} src={linkedIcon} />
                     </div>
-                    <div >
-                        <Card.Img style={{ maxWidth: '30px' }} src={instaIcon} />
+                    <div className="mx-3">
+                        <Card.Img style={{ width: '25px' }} src={instaIcon} />
                     </div>
-                    <div >
-                        <Card.Img style={{ maxWidth: '30px' }} src={youtubeIcon} />
+                    <div className="mx-3">
+                        <Card.Img style={{ width: '25px' }} src={youtubeIcon} />
                     </div>
 
                 </div>
@@ -91,24 +91,24 @@ const Footer = () => {
                         </Nav.Item>
                     </Nav>
                 </div>
-                <div className="d-flex justify-content-around align-items-center w-75 mx-auto">
-                    <div style={{height:'40px',overflow:'hidden'}} className="border">
-                    <Card.Img className="p-2" style={{ maxWidth:'65px'}} src={bkashImg}/>
+                <div className="d-flex justify-content-center align-items-center w-50 mx-auto ">
+                    <div style={{height:'50px',width:'120px'}} className="border me-2">
+                    <Card.Img className="p-2 mt-1" style={{ width:'60px'}} src={bkashImg}/>
                     </div>
-                    <div style={{height:'40px',overflow:'hidden'}} className="border">
-                    <Card.Img className="p-2" style={{ maxWidth:'65px'}} src={nagadImage}/>
+                    <div style={{height:'50px',width:'120px'}} className="border me-2">
+                    <Card.Img className="p-2 mt-1" style={{ width:'60px'}} src={nagadImage}/>
                     </div>
-                    <div style={{height:'40px',overflow:'hidden'}} className="border">
-                    <Card.Img className="p-2" style={{ maxWidth:'65px',marginTop:'-17px'}} src={rocketImg}/>
+                    <div style={{height:'50px',width:'120px'}} className="border me-2">
+                    <Card.Img className="p-2" style={{  width:'60px',marginTop:'-10px'}} src={rocketImg}/>
                     </div>
-                    <div style={{height:'40px',overflow:'hidden'}} className="border">
-                    <Card.Img className="p-2" style={{ maxWidth:'65px'}} src={visaImage}/>
+                    <div style={{height:'50px',width:'120px'}} className="border me-2">
+                    <Card.Img className="p-2  mt-2" style={{  width:'60px'}} src={visaImage}/>
                     </div>
-                    <div style={{height:'40px',overflow:'hidden'}} className="border">
-                    <Card.Img className="p-2" style={{ maxWidth:'65px'}} src={masterImg} />
+                    <div style={{height:'50px',width:'120px'}} className="border me-2">
+                    <Card.Img className="p-2" style={{  width:'60px'}} src={masterImg} />
                     </div>
-                    <div style={{height:'40px',overflow:'hidden'}} className="border">
-                    <Card.Img className="p-2" style={{ maxWidth:'65px',marginTop:'-10px'}} src={amexImg} />
+                    <div style={{height:'50px',width:'120px'}} className="border ">
+                    <Card.Img className="p-2" style={{  width:'60px',marginTop:'-5px'}} src={amexImg} />
                     </div>
                 </div>
             </Col>
